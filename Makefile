@@ -6,13 +6,13 @@
 #    By: admaupie <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/23 15:30:28 by admaupie          #+#    #+#              #
-#    Updated: 2022/10/25 22:00:29 by admaupie         ###   ########.fr        #
+#    Updated: 2022/10/31 16:54:24 by admaupie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = philo
 
-CC = gcc -pthread -Wall -Werror -Wextra
+CC = gcc -pthread -Wall -Werror -Wextra -g3
 
 INCLUDES = -I./
 
